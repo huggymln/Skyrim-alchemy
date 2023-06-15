@@ -1,0 +1,97 @@
+.modalBackground{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(211,211,211,0.9);
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.modalContainer{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px 4px 4px 1.5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.modalFooter{
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: left;
+    text-align: left;
+}
+.modalBckbtn2, .modalBckbtn{
+    color: white;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    background: black;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+.modalBckbtn2:hover,.modalBckbtn:hover{
+    color: darkgrey;
+    cursor: grab;
+}
+.modalBckbtn2:active,.modalBckbtn:active{
+    cursor: grabbing;
+}
+.modalBckbtn div{
+    margin-left: 5px;
+}
+.modalBckbtn2 div{
+    margin-right: 5px;
+}
+.modalBody{
+    padding-left: 5px;
+    padding-right: 5px;
+
+    text-align: left;
+    align-items: left;
+}
+.modalBody h2{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    border-bottom: solid black;
+    width: auto;
+}
+.modalBtn{
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.elements{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    transition: ease-in 0.5s;
+}
+.elements:div{
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+.elements h1{
+    margin-block-start: 0px;
+}
+.part1 h3{
+    margin-block-start: 0cm;
+    margin-block-end: 0cm;
+}

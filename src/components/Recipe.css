@@ -1,0 +1,98 @@
+.parentDiv{
+    z-index: -1;
+}
+
+.TitleContainer{
+    padding: 10px;
+    padding-left: 12px;
+}
+.Title{
+    text-align: left;
+    border-bottom: solid;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Title div{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    padding: 10px;
+    text-align: right;
+    align-items: right;
+}
+
+.dropdown{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+
+    border-radius: 5px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+}
+
+.RecipeContainer{
+    padding-left: 4px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+@media (min-width: 400px) {
+    .RecipeContainer {
+        grid-template-columns: auto;
+    }
+}
+@media (min-width: 450px) {
+    .RecipeContainer {
+        grid-template-columns: auto auto;
+    }
+}
+@media (min-width: 800px) {
+    .RecipeContainer {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (min-width: 1000px) {
+    .RecipeContainer {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media (min-width: 1200px) {
+    .RecipeContainer {
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+
+.RecipeCard{
+    width: 220px;
+    height: 150px;
+
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+
+    border-style: solid;
+    border-width: 1.5px 4px 4px 1.5px;
+    border-radius: 10px;
+}
+.RecipeCard h2{
+    height: 50%;
+    margin-bottom: 0px;
+    border-bottom: solid;
+}
+.RecipeCardFooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.RecipeCardFooter p{
+    font-weight: bold;
+    transition: 0.2s;
+}
+.detail:hover{
+    color: darkgrey;
+    cursor: grab;
+}
+.detail:active{
+    cursor: grabbing;
+}
